@@ -5,6 +5,12 @@ A Flutter application that fetches and displays real-time news from NewsAPI.org,
 ![Flutter](https://img.shields.io/badge/Flutter-3.9.2-blue)
 ![Dart](https://img.shields.io/badge/Dart-3.0+-blue)
 ![License](https://img.shields.io/badge/License-Educational-green)
+## 🎬 Demo
+<video controls width="720" poster="assets/demo-poster.png">
+   <source src="assets/demo.mp4" type="video/mp4">
+   Your browser does not support the video tag. Download the demo here: [assets/demo.mp4](assets/demo.mp4)
+</video>
+
 
 ## 🎯 Project Goal
 
@@ -87,38 +93,6 @@ lib/
 | Error Handling | Network errors, API errors, empty states | ✅ |
 | Loading Indicators | Progress indicators during data fetching | ✅ |
 
-## 📚 Learning Outcomes
-
-This project demonstrates:
-
-1. **REST API Integration**
-   - Making HTTP GET requests
-   - Passing query parameters
-   - Handling API authentication
-   - Error status code handling
-
-2. **FutureBuilder Pattern**
-   - Handling async operations
-   - Connection states (waiting, done, error)
-   - Building UI based on data state
-
-3. **Error Handling**
-   - Try-catch blocks
-   - User-friendly error messages
-   - Retry mechanisms
-   - Empty state handling
-
-4. **Loading Indicators**
-   - CircularProgressIndicator
-   - Pull-to-refresh
-   - Image loading states
-
-5. **Flutter Best Practices**
-   - Model-View-Service architecture
-   - Separation of concerns
-   - Reusable widgets
-   - Clean code structure
-
 ## 🔧 API Endpoints Used
 
 ### Top Headlines
@@ -155,12 +129,6 @@ The app includes:
 - **Main Screen**: News list with search, category filters, and pull-to-refresh
 - **Detail Screen**: Full article view with image, content, and source URL
 
-## 🎬 Demo
-<video controls width="720" poster="assets/demo-poster.png">
-   <source src="assets/demo.mp4" type="video/mp4">
-   Your browser does not support the video tag. Download the demo here: [assets/demo.mp4](assets/demo.mp4)
-</video>
-
 
 
 ## ⚠️ Important Notes
@@ -175,58 +143,6 @@ The app includes:
 - For production apps, use environment variables or secure storage
 - Never commit API keys to public repositories
 
-## 🐛 Troubleshooting
-
-### "Invalid API key" Error
-**Solution:** Check `lib/config/api_config.dart` and ensure:
-- No extra spaces around the key
-- No quotes inside the string
-- Key is copied correctly from NewsAPI dashboard
-
-### "Failed to load news" Error
-**Solution:** 
-- Verify internet connection
-- Check if API key is valid
-- Ensure you haven't exceeded daily request limit (100/day)
-
-### No Images Displaying
-**Solution:** This is normal - not all articles have images. The app shows placeholder icons for articles without images.
-
-### Search Returns No Results
-**Solution:** Try broader search terms or different keywords. Some searches may not have recent articles.
-
-## 📖 Documentation
-
-For more detailed information, see:
-- [SETUP_GUIDE.md](SETUP_GUIDE.md) - Detailed setup instructions
-- [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - Quick start guide
-- [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md) - Complete project overview
-- [ARCHITECTURE.md](ARCHITECTURE.md) - Architecture and data flow diagrams
-
-## 🎯 Assignment Completion
-
-**Goal:** Work with REST APIs to create a real-time news reader ✅
-
-**Technical Requirements:**
-- ✅ `http` package for REST API calls
-- ✅ `FutureBuilder` for async operations
-- ✅ Error handling throughout the app
-- ✅ Loading indicators for better UX
-
-**Outcome:** Fully functional real-time API-based news reader application
-
-## 🚦 Next Steps (Optional Enhancements)
-
-Consider adding:
-- [ ] Save favorite articles locally (SQLite)
-- [ ] Share articles to social media
-- [ ] Dark mode support
-- [ ] Pagination for infinite scroll
-- [ ] Filter by date range
-- [ ] Multiple language support
-- [ ] Offline caching
-- [ ] Article bookmarking
-- [ ] Push notifications for breaking news
 
 ## 📝 License
 
