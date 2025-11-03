@@ -6,10 +6,7 @@ A Flutter application that fetches and displays real-time news from NewsAPI.org,
 ![Dart](https://img.shields.io/badge/Dart-3.0+-blue)
 ![License](https://img.shields.io/badge/License-Educational-green)
 ## 🎬 Demo
-<video controls width="720" poster="assets/demo-poster.png">
-   <source src="assets/demo.mp4" type="video/mp4">
-   Your browser does not support the video tag. Download the demo here: [assets/demo.mp4](assets/demo.mp4)
-</video>
+https://github.com/user-attachments/assets/d3ab4e87-4902-4d97-b176-3e18d3563e27
 
 
 ## 🎯 Project Goal
